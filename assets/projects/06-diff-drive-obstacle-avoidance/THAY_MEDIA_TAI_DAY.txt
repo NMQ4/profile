@@ -1,0 +1,4 @@
+PROJECT: DIFFERENTIAL-DRIVE ROBOT OBSTACLE AVOIDANCE
+TYPE: STATIC OBSTACLES / NAVIGATION
+
+Thay demo.mp4 bang video robot vi sai di chuyen va tranh vat can tinh.

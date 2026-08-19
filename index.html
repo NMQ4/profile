@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio nghiên cứu Robotics, Control Systems và Artificial Intelligence của Nguyễn Minh Quang.">
+  <meta name="theme-color" content="#080a0c">
+  <title>Nguyễn Minh Quang — Robotics & AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <nav class="navbar" aria-label="Điều hướng chính">
+    <div class="nav-shell">
+      <button class="brand route-link" data-route="home" aria-label="Trang chủ">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span>MINH QUANG</span>
+      </button>
+
+      <div class="nav-links" role="navigation">
+        <button class="nav-link route-link active" data-route="home">Home</button>
+        <button class="nav-link route-link" data-route="profile">Profile</button>
+        <button class="nav-link route-link" data-route="research">Research</button>
+        <button class="nav-link route-link" data-route="projects">Projects</button>
+        <button class="nav-link route-link" data-route="achievements">Achievements</button>
+        <button class="nav-link route-link" data-route="publications">Publications</button>
+      </div>
+
+      <button class="nav-contact route-link" data-route="contact">CONTACT <span>↗</span></button>
+      <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main id="app" class="app-shell">
+    <section class="page page-home active" data-page="home" aria-labelledby="home-title">
+      <div class="page-inner hero-layout">
+        <div class="hero-copy">
+          <div class="hero-topline page-reveal">
+            <span class="live-dot"></span>
+            <span>ROBOTICS RESEARCH PORTFOLIO</span>
+            <span class="hero-code">MQ / 2026</span>
+          </div>
+
+          <p class="hero-name page-reveal">NGUYỄN MINH QUANG</p>
+          <h1 id="home-title" class="hero-title page-reveal">
+            BUILDING<br>
+            <span class="outline">INTELLIGENT</span><br>
+            <span class="accent-word" id="rotatingWord">ROBOTS.</span>
+          </h1>
+
+          <div class="hero-summary page-reveal">
+            <p>Cử nhân ngành <strong>Robot và Trí tuệ nhân tạo</strong> <span class="english">(Bachelor of Robotics and Artificial Intelligence)</span>, Trường Đại học Công nghiệp Hà Nội.</p>
+            <p>Tập trung vào robot, điều khiển, lập kế hoạch chuyển động, hệ phi tuyến, thị giác máy tính, đa robot và trí tuệ nhân tạo.</p>
+          </div>
+
+          <div class="hero-actions page-reveal">
+            <button class="button button-primary route-link magnetic" data-route="projects">VIEW PROJECTS <span>↗</span></button>
+            <button class="button button-ghost route-link magnetic" data-route="research">RESEARCH AREAS <span>→</span></button>
+          </div>
+        </div>
+
+        <aside class="hero-panel page-reveal">
+          <div class="panel-corner panel-corner-a"></div><div class="panel-corner panel-corner-b"></div>
+          <div class="hero-panel-head">
+            <span>PROFILE / QUICK VIEW</span>
+            <span class="signal-bars"><i></i><i></i><i></i><i></i></span>
+          </div>
+          <div class="profile-line"><span>Degree</span><strong>Robotics & Artificial Intelligence</strong></div>
+          <div class="profile-line"><span>University</span><strong>Hanoi University of Industry</strong></div>
+          <div class="profile-line"><span>Research since</span><strong>2024</strong></div>
+          <div class="profile-line"><span>Publications</span><strong>03</strong></div>
+          <div class="profile-line"><span>Research awards</span><strong>02 × Second Prize</strong></div>
+          <div class="panel-footer"><span>HANOI / VIETNAM</span><span>27.09.2004</span></div>
+        </aside>
+      </div>
+
+      <div class="home-stats page-reveal">
+        <button class="stat route-link" data-route="profile"><b>2024</b><span>Tham gia nhóm nghiên cứu<br>Khoa Cơ Điện Tử</span></button>
+        <button class="stat route-link" data-route="research"><b>01</b><span>Đề tài NCKH<br>cấp trường tham gia</span></button>
+        <button class="stat route-link" data-route="publications"><b>03</b><span>Hội nghị / bài báo<br>đã công bố</span></button>
+        <button class="stat route-link" data-route="achievements"><b>02</b><span>Giải Nhì NCKH<br>sinh viên</span></button>
+        <button class="stat route-link" data-route="achievements"><b>01</b><span>Đồ án tốt nghiệp<br>xuất sắc nhất</span></button>
+      </div>
+    </section>
+
+    <section class="page" data-page="profile" aria-labelledby="profile-title">
+      <div class="page-inner">
+        <header class="page-header page-reveal">
+          <div><span class="page-index">PROFILE</span><p class="page-kicker">ABOUT · EDUCATION · ROLE</p></div>
+          <h2 id="profile-title">A researcher focused on <span>machines that perceive, plan & act.</span></h2>
+        </header>
+
+        <div class="profile-grid">
+          <article class="profile-story page-reveal">
+            <p class="lead">Tôi bắt đầu tham gia nhóm nghiên cứu của <strong>Khoa Cơ Điện Tử, Trường Đại học Công nghiệp Hà Nội</strong> từ năm 2 đại học (2024).</p>
+            <p>Tôi tập trung nghiên cứu thuật toán cho robot cánh tay và robot di động, học máy và trí tuệ nhân tạo, tìm đường trong robot, hệ thống phi tuyến, xử lý ảnh thông minh, đa robot và lập trình nhúng cho các hệ thống robot.</p>
+            <p>Đến nay, tôi từng tham gia hoạt động của <strong>01 đề tài Nghiên cứu khoa học cấp trường</strong> và là <strong>đồng tác giả của 03 hội nghị/bài báo đã công bố</strong>.</p>
+          </article>
+
+          <aside class="contact-card page-reveal">
+            <div class="mini-label">PERSONAL INFO</div>
+            <a href="tel:+84879689016"><span>PHONE</span><strong>+84 879 689 016</strong></a>
+            <a href="mailto:minhquang27092004gtc@gmail.com"><span>EMAIL</span><strong>minhquang27092004gtc@gmail.com</strong></a>
+            <div><span>DATE OF BIRTH</span><strong>27 / 09 / 2004</strong></div>
+          </aside>
+        </div>
+
+        <div class="timeline page-reveal">
+          <article><time>2022 — 2026</time><div><span>EDUCATION</span><h3>Cử nhân ngành Robot và Trí tuệ nhân tạo</h3><p class="english">Bachelor of Robotics and Artificial Intelligence</p><p>Trường Đại học Công nghiệp Hà Nội</p></div></article>
+          <article><time>2024</time><div><span>RESEARCH</span><h3>Tham gia nhóm nghiên cứu Khoa Cơ Điện Tử</h3><p>Bắt đầu nghiên cứu từ năm 2 đại học.</p></div></article>
+          <article><time>2025 — 02/2026</time><div><span>POSITION</span><h3>Đồng trưởng nhóm nghiên cứu</h3><p>Khoa Cơ Điện Tử · Trường Đại học Công nghiệp Hà Nội</p></div></article>
+        </div>
+
+        <div class="tool-row page-reveal">
+          <span>PYTHON</span><span>C / C++</span><span>MATLAB</span><span>ROS / ROS2</span><span>COPPELIASIM</span><span>OPENCV</span><span>CONTROL</span><span>PLANNING</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" data-page="research" aria-labelledby="research-title">
+      <div class="page-inner">
+        <header class="page-header page-reveal">
+          <div><span class="page-index">RESEARCH</span><p class="page-kicker">AREAS OF INTEREST</p></div>
+          <h2 id="research-title">Research at the intersection of <span>robotics, control & intelligence.</span></h2>
+        </header>
+
+        <div class="research-grid page-reveal">
+          <article class="research-card"><span>01</span><h3>Robotics</h3><p>Robot cánh tay, robot di động, động học, động lực học và các hệ robot tự hành.</p><i>MANIPULATOR · MOBILE</i></article>
+          <article class="research-card"><span>02</span><h3>Multi-Robot Systems</h3><p>Phân chia nhiệm vụ, phối hợp nhiều robot và điều phối hoạt động trong môi trường nhà xưởng.</p><i>TASK ALLOCATION · COORDINATION</i></article>
+          <article class="research-card"><span>03</span><h3>Nonlinear Systems</h3><p>Con lắc ngược quay, con lắc ngược trên xe, robot và bánh xe tự cân bằng.</p><i>MODELING · STABILITY</i></article>
+          <article class="research-card"><span>04</span><h3>Computer Vision</h3><p>Phát hiện, theo dõi, định vị đối tượng và thị giác máy tính phục vụ hệ thống robot.</p><i>DETECTION · TRACKING</i></article>
+          <article class="research-card"><span>05</span><h3>Control Systems</h3><p>Điều khiển kinh điển, hiện đại và thông minh: PID, Backstepping, Fuzzy, MPC/NMPC và tối ưu.</p><i>CLASSICAL · MODERN · INTELLIGENT</i></article>
+          <article class="research-card"><span>06</span><h3>Motion Planning</h3><p>RRT/RRT*, Kinodynamic Planning, tránh vật cản và replanning thời gian thực.</p><i>RRT* · REAL-TIME</i></article>
+          <article class="research-card"><span>07</span><h3>Machine Intelligence</h3><p>Machine Learning, Reinforcement Learning, AI và thuật toán tối ưu cho robot.</p><i>ML · RL · OPTIMIZATION</i></article>
+          <article class="research-card"><span>08</span><h3>Embedded Robotics</h3><p>Lập trình nhúng, cảm biến, cơ cấu chấp hành và triển khai thuật toán trên robot thực.</p><i>EMBEDDED · SENSORS</i></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" data-page="projects" aria-labelledby="projects-title">
+      <div class="page-inner projects-page">
+        <header class="page-header compact page-reveal">
+          <div><span class="page-index">PROJECTS</span><p class="page-kicker">SELECTED ROBOTICS WORK</p></div>
+          <h2 id="projects-title">Watch the <span>robots move.</span></h2>
+        </header>
+
+        <div class="project-toolbar page-reveal">
+          <div class="filter-group" id="projectFilters" aria-label="Lọc dự án">
+            <button class="filter active" data-filter="ALL">ALL</button>
+            <button class="filter" data-filter="MOBILE">MOBILE</button>
+            <button class="filter" data-filter="OMNI">OMNI</button>
+            <button class="filter" data-filter="CONTROL">CONTROL</button>
+            <button class="filter" data-filter="SIMULATION">SIMULATION</button>
+            <button class="filter" data-filter="ARM">ROBOT ARM</button>
+          </div>
+          <span class="project-count"><b id="visibleProjectCount">00</b> PROJECTS</span>
+        </div>
+
+        <div id="projectsGrid" class="projects-grid" aria-live="polite"></div>
+        <div id="projectsEmpty" class="projects-empty">Không tìm thấy media trong các project folder.</div>
+      </div>
+    </section>
+
+    <section class="page" data-page="achievements" aria-labelledby="achievements-title">
+      <div class="page-inner">
+        <header class="page-header page-reveal">
+          <div><span class="page-index">ACHIEVEMENTS</span><p class="page-kicker">ACADEMIC HIGHLIGHTS</p></div>
+          <h2 id="achievements-title">Recognition for <span>research & engineering.</span></h2>
+        </header>
+
+        <div class="achievement-list page-reveal">
+          <article class="achievement"><div class="award-mark">02</div><div><span>SECOND PRIZE · STUDENT RESEARCH</span><h3>Kinodynamic RRT* đa độ phân giải</h3><p>“Nghiên cứu tối ưu quỹ đạo cho robot di động sử dụng thuật toán Kinodynamic RRT* đa độ phân giải kết hợp phát hiện vật cản thời gian thực”.</p></div><b>RRT*</b></article>
+          <article class="achievement"><div class="award-mark">02</div><div><span>SECOND PRIZE · STUDENT RESEARCH</span><h3>Điều khiển con lắc ngược quay bằng Fuzzy — QPSO</h3><p>“Nghiên cứu điều khiển cân bằng mô hình con lắc ngược quay sử dụng bộ điều khiển Fuzzy cải tiến dựa trên thuật toán tối ưu bầy đàn lượng tử”.</p></div><b>QPSO</b></article>
+          <article class="achievement"><div class="award-mark star">★</div><div><span>GRADUATION PROJECT</span><h3>Đồ án tốt nghiệp xuất sắc nhất</h3><p>Thành tích nổi bật trong quá trình bảo vệ đồ án tốt nghiệp.</p></div><b>TOP</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" data-page="publications" aria-labelledby="publications-title">
+      <div class="page-inner">
+        <header class="page-header page-reveal">
+          <div><span class="page-index">PUBLICATIONS</span><p class="page-kicker">RESEARCH OUTPUT</p></div>
+          <h2 id="publications-title">Published <span>research.</span></h2>
+        </header>
+
+        <div class="publication-list page-reveal">
+          <article class="publication"><div class="pub-id">[01]</div><div class="pub-body"><span>2026</span><h3>Kinodynamic RRT planning with backstepping tracking for constrained mobile robot motion in cluttered environments.</h3><p>Bui, T. L., <strong>Nguyen, M. Q.</strong>, Nguyen, T. T., & Luu, V. H.</p></div><div class="pub-type">PLANNING</div></article>
+          <article class="publication"><div class="pub-id">[02]</div><div class="pub-body"><span>PUBLICATION</span><h3>CONTROL ROTARY INVERTED PENDULUM MODEL BALANCING USING AN IMPROVED FUZZY CONTROLLER BASED ON A QUANTUM SWARM OPTIMIZATION ALGORITHM.</h3><p>Bui, T. L., Nguyen, V. T., Tran, N. T., Nguyen, D. Q., La, T. H., <strong>Nguyen, M. Q.</strong>, & Le, T. T.</p></div><div class="pub-type">CONTROL</div></article>
+          <article class="publication"><div class="pub-id">[03]</div><div class="pub-body"><span>2025 — 2026</span><h3>Điều khiển bám quỹ đạo cho robot hai bánh vi sai sử dụng học tăng cường kết hợp Backstepping.</h3><p>T. Q. Cao, T. H. Nguyen, and <strong>M. Q. Nguyen</strong>.</p></div><div class="pub-type">RL</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" data-page="contact" aria-labelledby="contact-title">
+      <div class="page-inner contact-page">
+        <div class="contact-hero page-reveal">
+          <span class="page-index">CONTACT</span>
+          <h2 id="contact-title">LET'S BUILD<br><span>SOMETHING THAT MOVES.</span></h2>
+          <p>Trao đổi về Robotics, Control Systems, Motion Planning, Multi-Robot Systems, Computer Vision và Artificial Intelligence.</p>
+        </div>
+
+        <div class="contact-grid page-reveal">
+          <a href="mailto:minhquang27092004gtc@gmail.com" class="contact-tile"><span>EMAIL</span><strong>minhquang27092004gtc@gmail.com</strong><b>↗</b></a>
+          <a href="tel:+84879689016" class="contact-tile"><span>PHONE</span><strong>+84 879 689 016</strong><b>↗</b></a>
+          <div class="contact-tile"><span>LOCATION</span><strong>Hanoi, Vietnam</strong><b>VN</b></div>
+        </div>
+
+        <footer class="site-footer page-reveal"><span>© 2026 NGUYỄN MINH QUANG</span><span>ROBOTICS · ARTIFICIAL INTELLIGENCE</span></footer>
+      </div>
+    </section>
+  </main>
+
+  <aside class="route-rail" aria-label="Điều hướng nhanh">
+    <div class="route-line"><i id="routeProgress"></i></div>
+    <button class="rail-dot route-link active" data-route="home" aria-label="Home"></button>
+    <button class="rail-dot route-link" data-route="profile" aria-label="Profile"></button>
+    <button class="rail-dot route-link" data-route="research" aria-label="Research"></button>
+    <button class="rail-dot route-link" data-route="projects" aria-label="Projects"></button>
+    <button class="rail-dot route-link" data-route="achievements" aria-label="Achievements"></button>
+    <button class="rail-dot route-link" data-route="publications" aria-label="Publications"></button>
+    <button class="rail-dot route-link" data-route="contact" aria-label="Contact"></button>
+  </aside>
+
+  <div class="route-footer" aria-hidden="true">
+    <span id="routeName">HOME</span>
+    <span class="route-hint">← → TO NAVIGATE</span>
+  </div>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <button class="modal-backdrop" data-close-modal aria-label="Đóng"></button>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Đóng project">×</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-copy">
+        <div class="modal-meta"><span id="modalCategory"></span><span id="modalYear"></span></div>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div class="project-tags" id="modalTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

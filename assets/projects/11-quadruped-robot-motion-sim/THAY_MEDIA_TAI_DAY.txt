@@ -1,0 +1,7 @@
+QUADRUPED ROBOT · MOTION SIMULATION
+
+Thay media tại folder này:
+- Video: đổi video thật của bạn thành demo.mp4 rồi ghi đè file demo.mp4 hiện có.
+- Ảnh cover: đổi ảnh thành cover.jpg rồi ghi đè file cover.jpg hiện có.
+
+Website ưu tiên demo.mp4. Nếu không có video, website sẽ dùng cover.jpg.

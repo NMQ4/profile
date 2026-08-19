@@ -1,0 +1,8 @@
+PROJECT: OMNI OBSTACLE - REAL ROBOT
+
+1. Copy video cua ban vao folder nay.
+2. Doi ten thanh demo.mp4.
+3. Ghi de video demo hien tai.
+
+Neu chi muon dung anh, co the xoa demo.mp4 va thay cover.jpg.
+Khong can sua HTML/CSS/JavaScript.
